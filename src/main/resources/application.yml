@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/project?serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    database: mysql
+openweathermap:
+  key: 64305da5691fed216721b5a627a55f97
