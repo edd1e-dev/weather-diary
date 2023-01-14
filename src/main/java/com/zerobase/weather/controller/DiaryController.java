@@ -2,12 +2,12 @@ package com.zerobase.weather.controller;
 
 import com.zerobase.weather.domain.Diary;
 import com.zerobase.weather.service.DiaryService;
+import com.zerobase.weather.service.DiaryServiceImpl;
 import java.time.LocalDate;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.format.annotation.DateTimeFormat.ISO;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

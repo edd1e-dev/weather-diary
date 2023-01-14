@@ -7,5 +7,10 @@ spring:
   jpa:
     show-sql: true
     database: mysql
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 openweathermap:
-  key: 64305da5691fed216721b5a627a55f97
+  key: 58f2e352203c44498cfa591ae748a593
+logging:
+  config: classpath:logback-spring.xml
