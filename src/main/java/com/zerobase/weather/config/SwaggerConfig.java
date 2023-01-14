@@ -23,11 +23,11 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        String description = "Welcome Log Company";
+        String description = "날씨 일기를 CRUD 할 수 있는 백엔드 API 입니다.";
         return new ApiInfoBuilder()
-            .title("SWAGGER TEST")
+            .title("날씨 일기 프로젝트 :)")
             .description(description)
-            .version("1.0")
+            .version("2.0")
             .build();
     }
 }
